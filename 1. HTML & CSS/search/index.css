@@ -1,0 +1,123 @@
+.links {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+a:hover {
+    background-color: #f3f6f4;
+}
+
+img {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    padding: 12px;
+    height: 300px;
+}
+
+#query {
+    width: 560px;
+    height: 37px;
+    border-radius: 20px;
+    border: 1px solid #bcbcbc;
+    font-size: 16px;
+    text-indent: 20px;
+}
+
+#query:focus {
+    outline: none;
+}
+
+#query:hover {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 4px 10px 0 rgba(0, 0, 0, 0.1)
+}
+
+#main-submit {
+    height: 40px;
+    width: 145px;
+    background-color: #f3f6f4;
+    border-radius: 5px;
+    border: solid #f3f6f4;
+    font-size: 14px;
+}
+
+#second-submit {
+    height: 40px;
+    width: 170px;
+    background-color: #f3f6f4;
+    border-radius: 5px;
+    border: solid #f3f6f4;
+    font-size: 14px;
+}
+
+#main-submit:hover, #second-submit:hover {
+    border: 2px solid #d5d5d5;
+    font-weight: bold;
+}
+
+.search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -250px;
+}
+
+.button1 {
+    display: flex;
+    position: absolute;
+    left: 18%;
+    padding: 25px;
+    column-gap: 12px;
+}
+
+.button2 {
+    display: flex;
+    position: absolute;
+    left: 28%;
+    padding: 25px;
+}
+
+h3 {
+    text-align: left;
+}
+
+#one {
+    display: block;
+    vertical-align: baseline;
+    width: 400px;
+    height: 20px;
+}
+
+#one:focus {
+    outline-color: blue;
+    outline-style: ridge;
+    outline-width: 1px;
+}
+
+#two {
+    height: 30px;
+    width: 130px;
+    background-color: #4d90fe;
+    border-radius: 5px;
+    border: 1px solid #3984ff;
+    color: white;
+    font-weight: bold;
+}
+
+#two:hover {
+    background-color: #307eff;
+    border: 1px solid #2d79f5;
+}
+
+.adsearch {
+    display: flex;
+    position: absolute;
+    left: 21%
+}
